@@ -28,5 +28,5 @@ header iframe {
 }
 
 .sumido {
-    color: transparent;
+    visibility: hidden;
 }
