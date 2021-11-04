@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header iframe {
+    background-color: black;
+    width: 100%;
+    border: none;
+    height: 110px;
+}
+
+.logo {
+    display: flex;
+}
+
+.boto {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.dentro {
+    padding: 10px;
+    background-color: black;
+    border: 1px rgba(255, 255, 255, 0.349) solid;
+    color: white;
+}
+
+.sumido {
+    color: transparent;
+}
