@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://media.istockphoto.com/photos/astronaut-sitting-on-moon-recording-sunrise-on-earth-with-smartphone-picture-id1272794019?b=1&k=20&m=1272794019&s=170667a&w=0&h=6_hD3d5JW-HkEWJStK0HAeOXb2EL7aEgZSswoD1rkkY=);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+header iframe {
+    background-color: black;
+    width: 100%;
+    border: none;
+    height: 110px;
+}
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(59, 87, 100);
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.pizza{
+    font-family: monospace;
+    color: white;
+    font-size: 70px;
+}
+.espacao{
+    margin: 150px;
+}
+.third {
+    border-color: #000000;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #000000 inset, 0 0 0 0 #000000;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    padding: 15px 25px;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+    color: black;
+    border-color: #ffffff;
+  }
+  .fourth {
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    background-image: -webkit-linear-gradient(45deg, rgb(59, 87, 100) 50%, transparent 50%);
+    background-image: linear-gradient(45deg, rgb(59, 87, 100) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    padding: 15px 25px;
+    border-radius: 5px;
+  }
+  .fourth:hover {
+    background-position: 0;
+    border-color: rgb(59, 87, 100);
+  }
